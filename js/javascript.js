@@ -9,16 +9,20 @@ document.addEventListener("DOMContentLoaded", () => {
             labels: [],
             datasets: [{
                 label: 'SIN',
-                backgroundColor: 'rgb(255, 99, 132)',
+                backgroundColor: 'rgb(255, 143, 167)',
                 borderColor: 'rgb(255, 99, 132)',
                 data: [],
                 fill: false,
+                borderWidth: 1,
+                pointRadius: 2
             }, {
                 label: 'COS',
-                backgroundColor: 'rgb(3, 207, 252)',
-                borderColor: 'rgb(3, 207, 252)',
+                backgroundColor: 'rgb(173, 221, 255)',
+                borderColor: 'rgb(128, 202, 255)',
                 data: [],
                 fill: false,
+                borderWidth: 1,
+                pointRadius: 2
             }]
         },
 
